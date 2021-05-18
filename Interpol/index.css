@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+    background-attachment: fixed;
+}
+.container {
+    position: relative;
+    width: 1000px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container .card {
+    position: relative;
+    width:300px;
+    height: 150px;
+    background-color: #fffdba;
+    margin: 20px;
+    border-radius: 30px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.container .card .circle h2 {
+    color: aliceblue;
+    font-size: 2em;
+/*    padding: 30px 0;*/
+}
+.container .card .content {
+    position: absolute;
+    bottom: 10px;
+    page-break-after: 20px;
+    text-align: center;
+}
+.container .card .content p{
+    color: maroon;
+}
+.container .card .content a{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background:white;
+    color: black;
+    border-radius: 40px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.container .card:nth-child(1) {
+    background: #ffb3ba;
+}
+.container .card:nth-child(2) {
+    background: #ffdfba;
+}
+.container .card:nth-child(3) {
+    background: #ffffba;
+}
+.container .card:nth-child(4) {
+    background: #baffc9;
+}
+.container .card:nth-child(5) {
+    background: #bae1ff;
+}
+
+/*NewtonGregory*/
+.containerng {
+    position: relative;
+    width: 400px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#newtgreg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(#ffb3ba,#ffdfba);
+    background-attachment: fixed;
+}
+.sec {
+    position: absolute;
+    justify-content: center;
+    left: 30px;
+}
+.mainng {
+    position: absolute;
+    left: 20px;
+    top:45px;
+}
+.tab {
+    padding: 10px;
+    border: 3px solid black;
+}
+#qx,#qy {
+    border-radius: 10px;
+    width:100px;
+    height: 25px;
+}
+/*NewtonGregoryend*/
+
+/*Newton*/
+#newt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(#ffdfba,#ffffba);
+    background-attachment: fixed;
+}
+/*Newtonend*/
+
+/*Lagrange*/
+#lag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(#baffc9,#ffffba);
+    background-attachment: fixed;
+}
+/*Lagrangeend*/
+
+/*Diffentiation*/
+#diff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(#bae1ff,#baffc9);
+    background-attachment: fixed;
+}
+#inte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(#bae1ff,#ffb3ba);
+    background-attachment: fixed;
+}
+#mainte {
+    position: absolute;
+    left: 20px;
+    top:45px;
+}
+#fonewt {
+    font-size: 14px;
+}
+/*formula class selector issues. make separate ids*/
+
+#folag {
+    font-size: 9px;
+}
+#fodif {
+    font-size: 10px;
+}
+#fo {
+    font-size: 14px;
+}
+#secl #pol {
+    font-size: 7px;
+}
+#cred {
+    color: white;
+    font-size: 12px;
+}

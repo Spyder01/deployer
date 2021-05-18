@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body id="inte">
+        <div id="mainte">
+            <div id="containernte">
+                Insert values: <br>
+        
+        <label for="int">n : </label><input type="text" id="int"><br><br>
+        <label for="a">a : </label><input typr="text" id="a"><br><br>
+        <label for="b">b : </label><input type="text" id="b"><br><br>
+        <button onclick="store()">OK</button><br>
+            </div>
+            <div class="sec">
+        <input type="radio" name="met" id="trap"><label for="trap">Trapezoidal rule</label><br>
+        <input type="radio" name="met" id="onet"><label for="onet">Simpson's 1/3rd rule</label><br>
+        <input type="radio" name="met" id="thre"><label for="thre">Simpson's 3/8th rule</label><br>
+        <label for="xinte">x : </label><input type="text" id="xinte"><br>
+        <label for="xinte">y : </label><input type="text" id="yinte"><br>
+        <button onclick="enter()">Enter values</button>
+        <button onclick="answer()">Answer</button>
+        <p id="ans"></p>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

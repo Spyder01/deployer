@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body id="lag">
+        <div class="mainng">
+        Enter the points:<br>
+        <div id="containerl">
+        <label for="xlag">X: </label><input type=text id=xlag><br><br>
+        <label for="ylag">Y: </label><input type=text id=ylag><br><br>
+        <input type=button id="btnlag" value="Enter values" onclick="Inslag()">
+        <br><br>
+        </div>
+        <div id="secl">
+        Enter x for unknown value: <input type=text id="unk"><br><br>
+        Solutions:<br>
+        <button id="for" onclick="forl()">Get formula: </button><br>
+        <p id="folag"></p>
+        <button id="polylag" onclick="polynomlag();">Get polynomial</button><button id="anslag" onclick="answerlag();">Get value</button>
+        <p id="pol"></p> <p id="an"></p>
+        </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

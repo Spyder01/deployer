@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body id="diff">
+        <div class="mainng">
+        <div class="containerng">
+        Insert values:<br>
+        <table class="tab">
+                <tr>
+                    <th>Enter the value of x</th>
+                    <td><input type="text" id="qx"></td>
+                </tr>
+                <tr>
+                    <th>Enter the corresponding value of y=f(x)</th>
+                    <td><input type="text" id="qy"></td>
+            </tr>
+        </table>
+        <br><br>
+        <input type=button id="btn" value="Enter values" onclick="Ins()">
+        <br><br>
+        </div>
+        <div class="sec">
+        <label for="unk">Enter x for unknown value: </label><input type=text id="unk"><br>
+        <input type=radio id="f" name="fb" value="forward" checked>Forward interpolation<br>
+        <input type=radio id="b" name="fb" value="backward">Backward interpolation
+        <br>
+        
+        <table border=4 id=dis>
+            <tr id="lid">
+                <td>x</td>
+                <td>y</td>
+            </tr>
+        </table>
+        
+        <input type=button id="btn1" value="Complete" onclick="Tabulate('dis');"><br><br>
+        Solutions:<br>
+        <button id="for" onclick="ford()">Get formula: </button><br>
+        <p id="fodif"></p>
+        <button id="ansdif" onclick="ansdif1();">Get value</button>
+        <p id="and"></p>
+        </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
